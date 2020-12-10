@@ -1,3 +1,4 @@
+#Bank Management System by TacoUdit
 from tkinter import *
 import datetime
 import sqlite3 as sq
@@ -760,15 +761,7 @@ class Application(object):
             text.tag_configure('version', font=('Verdana', 10, 'bold'))
             text.insert(END, "            Bank Management System\n\
                            (About)",'big')
-            text_writing = "\n\n     Bank Management System is a free open source banking software was made by \n \
-   Udit Kumar Sharma, Shain Islam and Dibyayon Mandal under guidance     of Tanmay Suhane(P.G.T)Computer\
- Science and Informatics Practices.\n\n     This software was initially developed for class-12 th Informatics\n  \
-     Practices project work of 2019-20. Our special thanks to Google.com,\n      Stackoverflow.com, Youtube.com which \
-helped a lot in accomplishment \n                       \
-        of this project. \n\n \
-    Our special thanks to K.V Malda and our teacher Mr. Tanmay Suhane(P.G.T)\n\
-        Computer Science and Informatics Practices who helped us in\n \
-                    accomplishment of this project."
+            text_writing = "Enter Your Text Here"
             text.insert(END,text_writing)
             text.insert(END,'\n\n\
                                   \
