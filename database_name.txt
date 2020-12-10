@@ -1,0 +1,8 @@
+Name varchar
+Age varchar
+Mob_No varchar,
+Mail varchar,
+Address varchar,
+Aadhar Varchar,
+Amount varchar,
+Acno varchar
